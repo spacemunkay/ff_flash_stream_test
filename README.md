@@ -22,3 +22,4 @@ ffmpeg -i videofile.mp4 -c:v libx264 -crf 19 videofile.flv
 # Notes
 * Make sure you have the latest Flash Player installed.
 * In Chrome, even though Flash was installed, encountered a minor bug where it was necessary to click on 'Download Flash' in order to bring up 'Allow Flash' dialog.
+* In Firefox, I had to host the RawStreamTest.html from a local server to allow Flash to run locally.
